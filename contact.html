@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Awesome Florists</title>
+</head>
+<body>
+    <header>
+        <h1>Awesome Florists</h1>
+    </header>
+    
+    <nav>
+        <!-- First level UL for the main -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Flowers</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li>
+                <a href="order.html">Order</a>
+                <!-- Second level UL for the sub menu -->
+                <ul>
+                    <li><a href="">Polka Posies</li></a>
+                    <li><a href="">Red Roses</li></a>
+                    <li><a href="">Rainbow Orchid</li></a>
+                    <li><a href="">Charming Lavendar</li></a>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+       <h2>Contact Us</h2>
+       <p>Please feel free to fill out the form below to send us your custom request for flowers.</p>
+       <!-- Add the form below -->
+       <form>
+
+            <fieldset>
+                <legend>From</legend>
+                <label for="name">Name</label> <!--for attribute ==id of the input!-->
+                <input type="text" name="name" id="name" autofocus>
+                <label for="phone">Phone</label> 
+                <input type="tel" name="phone" id="phone" placeholder="XXX-XXX-XXX">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" >
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+
+            </fieldset>
+            <fieldset>
+                <legend>To</legend>
+                <label for ="deldate">Delivery Date</label>
+                <input type="date" name="deldate" id="deldate">
+                <label for ="colour">Colour Picker</label>
+                <input type="color" name="colour" id="colour">
+                <label for="occation">Occasion</label>
+                <select id="occasion" name = "occasion">
+                    <optgroup label="Happy">
+                        <option value="1">Birthday</option>
+                        <option value="2">New Baby</option>
+                        <option value="3">New Job</option>
+
+                    </optgroup>
+
+                    <optgroup label="Sad">
+                        <option value="4">Failed school</option>
+                        <option value="5">Get Well</option>
+                        <option value="6">ABC</option>
+
+                    </optgroup>
+                    
+            </fieldset>
+
+            <fieldset>
+                <legend>Add 25$ Gift Card</legend>
+                <label for="yes">Yes</label>
+                <input type="radio" name="gift" value="yes" id="yes">
+                <label for="no">No</label>
+                <input type="radio" name="gift" value="no" id="no">
+            </fieldset>
+
+            <fieldset>
+                <legend>Terms</legend>
+                <label for="term">I accept</label>
+                <input type="checkbox" name="term" value="yes" id="term">
+            </fieldset>
+
+            <fieldset>
+                <legend>Flower Types</legend>
+                <label for="roses">Rose</label>
+                <input type="checkbox" name="flower" value="roses" id="roses">
+                
+                <label for="violet">Violet</label>
+                <input type="checkbox" name="flower" value="violet" id="violet">
+             
+                <label for="daisy">Daisy</label>
+                <input type="checkbox" name="flower" value="daisy" id="daisy">
+            </fieldset>
+
+            
+
+
+       </form>
+
+
+
+
+    </main>
+    
+    <aside>
+        <h3>Our Address</h3>
+        <!-- We will work on this later -->
+    </aside>
+    
+    <footer>
+        <nav>
+            <!-- First level UL only for the footer -->
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        &copy; Copyright Conestoga College, 2023  
+    </footer>
+</body>
+</html>
+
+
+
